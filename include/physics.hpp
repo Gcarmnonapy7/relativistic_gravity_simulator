@@ -61,7 +61,7 @@ class GravitySimulator
                           float r=1.0f, float g=1.0f, float b=1.0f);
         
         void compute_forces();
-        void integrate(double dt);
+        void integrate(double delta_time);
         void handle_collisions();
         void handle_event_horizon_crossing();
 };
